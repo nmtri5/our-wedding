@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - uses: actions/upload-artifact@v3
         with:
-          name: my-artifact
+          name: github-pages
           path: .
           retention-days: 1
     # Deploy job
