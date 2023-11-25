@@ -29,7 +29,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: /home/runner/work/_temp/artifact.tar
+          path: C:\Users\Trung Nguyen\IdeaProjects\artifacts
           retention-days: 1
     # Deploy job
   deploy:
