@@ -55,3 +55,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: /home/runner/work/_temp/artifact.tar
+          retention-days: 1
